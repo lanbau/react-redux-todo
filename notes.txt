@@ -1,0 +1,13 @@
+Reducer is like a listener? Listening to Actions Dispatched By Containers...
+When it matches, reduce the state into something and return it.
+
+Example...
+Add a addto item
+
+1. User keys in text in input form and clicks on submit button
+2. submit sends text to onsubmit callback function in Container (containers/AddTodo.js)
+3. Smart Component (containers/AddTodo.js) dispatches an action with the input
+4. action receives text and returns an object with type addtodo...
+5. reducer listens to addtodo event? then takes addtodo object and state... and returns a modified state array
+
+6. Now, todolist needs to be changed.. how ah?

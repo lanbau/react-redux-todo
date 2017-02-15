@@ -3,6 +3,8 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
+
+// all reducers
 import todoApp from './reducers'
 import App from './components/App'
 

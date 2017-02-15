@@ -3,14 +3,14 @@ export const addTodo = (text) => {
   return {
     type: 'ADD_TODO',
     id: nextTodoId++,
-    text
+    text: text
   }
 }
 
 export const setVisibilityFilter = (filter) => {
   return {
     type: 'SET_VISIBILITY_FILTER',
-    filter
+    filter: filter
   }
 }
 
